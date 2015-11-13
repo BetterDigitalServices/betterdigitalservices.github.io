@@ -9,9 +9,20 @@ h1 {
   text-transform: uppercase;
   font-family : Campton;
   font-weight : bold;
-  font-size : 84px;
-  line-height : 92.6px;
-  letter-spacing : 8.15px;
+  font-size : 68px;
+  line-height : 1.1;
+  letter-spacing : 7px;
+
+  // TODO Create underlined wave
+  .underlined:after {
+    /*height: 10px;
+    width: 100px;
+    overflow: visible;
+    background: url('../img/wave_big-01.svg') left bottom no-repeat;
+    content: "";
+    display: inline-block;
+    bottom: -5px;*/
+  }
 }
 
 .all-caps {
