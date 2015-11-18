@@ -1,25 +1,24 @@
 {
   "name": "betterdigitalservices.github.io",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Blue arrow landing site",
+  "private": true,
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/laurisvan/betterdigitalservices.github.io.git"
   },
   "author": "Lauri Svan <lauri.svan@sc5.io> (https://github.com/laurisvan)",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/laurisvan/betterdigitalservices.github.io/issues"
   },
   "homepage": "https://github.com/laurisvan/betterdigitalservices.github.io",
-  "dependencies": {
-    "gulp-sass": "^2.1.0"
-  },
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "node-sass": "^3.4.2"
+  },
+  "scripts": {
+    "watch-css": "./node_modules/node-sass/bin/node-sass sass/main.scss --watch css/main.css",
+    "build-css": "mkdir -p css && ./node_modules/node-sass/bin/node-sass sass/main.scss css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

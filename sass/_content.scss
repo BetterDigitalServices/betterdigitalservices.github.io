@@ -1,23 +1,55 @@
 .lead {
-  
+
 }
 
-.info {
-  font-size : 28px;
-  line-height : 35.6px;
-  letter-spacing : 3.64px;
-  height: 600px;
+.blue-arrow-slogan {
+  width: 100%;
+  height: 20px;
 }
 
-.rotate-90 {
+.blue-arrow-body-container {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.blue-arrow-body-header-container {
+  height: 400px;
+  width: 600px;
+  padding-right: 10%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.blue-arrow-body-topic-container {
+  height: 340px;
+  width: 100%;
+}
+
+.blue-arrow-body-header {
+  font-size: 64px;
+  float: left;
+  width: 300px;
+}
+
+.blue-arrow-info {
+  font-size: 28px;
+  line-height: 35.6px;
+  letter-spacing: 3.64px;
+  height: 100px;
+  float: left;
+}
+
+.blue-arrow-rotate-90 {
+  margin-top: 5px;
   overflow: visible;
-  -webkit-transform-origin: top left;
-  -moz-transform-origin: top left;
-  -ms-transform-origin: top left;
-  -o-transform-origin: top left;
-  transform-origin: top left;
+  transform-origin: top left 0;
+  float: left;
+  transform: translate(100%, 0) rotate(90deg) ;
+}
 
-  transform: rotate(90deg) translate(0, -100%);
+.blue-arrow-body-rows {
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 a, a:hover, a:visited, a:focus {

@@ -2,7 +2,7 @@
 
 How to build it locally:
 ```
-$ npm install
-$ bower install
-$ gulp sass
+npm install
+npm run build-css
+npm run watch-css
 ```

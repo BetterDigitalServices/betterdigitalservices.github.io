@@ -1,8 +1,8 @@
 header {
   box-shadow: 0px 10px 10px rgba(32, 59, 106, 0.2);
   z-index: 100;
-
   font-family : Campton;
+  font-size: 64px;
   font-weight : bold;
   font-size : 14px;
   line-height : 90px;
@@ -11,30 +11,41 @@ header {
   color : #203B6A;
   vertical-align: middle;
 
-  nav {
-    display: inline;
-  }
-
-  ul {
-    padding: 0;
-    display: inline;
-    list-style-type: none;
-  }
-
-  li {
-    display: inline;
-    margin: 6px;
-  }
-
   a {
-    color: inherit;
+    color: black;
   }
 
-  .competition-entry-cfa {
+  .blue-arrow-header {
+    background-color: #fff;
+    height: 100px;
+  }
+
+  .blue-arrow-header-container {
+    width: 100%;
+  }
+
+  .blue-arrow-header-logo {
+    width: 15%;
+    height: 100px;
+    vertical-align: middle;
+    float:left;
+    background: url("../img/ba_logo-01.svg") no-repeat center center;
+  }
+
+  .blue-arrow-header-links {
+    width: 70%;
+    height: 50px;
+    float:left;
+  }
+
+  .blue-arrow-competition-entry-cfa {
     // TODO Overflow the grid gutter ($grid-gutter-width)
     background: url("../img/ticket_bg-18.svg") repeat-y 0 0;
     background-color: #203B6A;
     color : #FFFFFF;
+    width: 15%;
+    height: 100px;
+    float:left;
 
     a {
       margin-left: 15px;
