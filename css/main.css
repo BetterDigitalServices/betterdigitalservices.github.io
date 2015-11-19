@@ -145,23 +145,47 @@ a, a:hover, a:visited, a:focus {
   font-family: "Campton";
   font-size: 29px; }
 
-.blue-arrow-grid-box-container {
-  width: 500px;
-  height: 270px; }
+.blue-arrow-categories-container {
+  display: inline-flex;
+  margin: 0px;
+  width: 800px; }
 
-.blue-arrow-grid-box-row {
-  display: inline-flex; }
-
-.blue-arrow-grid-box {
-  display: inline-block;
-  height: 110px;
-  width: 110px;
-  margin: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 20px;
-  border: 4px solid;
+.blue-arrow-category-box {
+  position: relative;
+  margin: 20px;
+  background: #d4ecdf;
+  height: 150px;
+  width: 150px;
+  border: 6px solid;
   border-color: #203B6A; }
+
+.blue-arrow-category-box-line {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  height: 60px;
+  width: 0px;
+  background: transparent;
+  margin-left: 16px;
+  margin-bottom: 35px;
+  margin-right: 55px;
+  margin-top: -10px;
+  padding: 0px;
+  position: absolute;
+  line-height: 50px;
+  text-align: center;
+  border-right: 5px solid #1f3b6a;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  content: " ";
+  pointer-events: none; }
+
+.blue-arrow-category-box-text {
+  margin-top: 50%;
+  font-size: 20px; }
 
 a, a:hover, a:visited, a:focus {
   color: inherit;
