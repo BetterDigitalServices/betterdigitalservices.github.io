@@ -50,6 +50,38 @@
 .blue-arrow-body-rows {
   padding-right: 10%;
   padding-left: 10%;
+  font-family: "John Baskerville Regular";
+}
+
+.blue-arrow-body-row {
+  font-size: 25px;
+}
+
+.blue-arrow-body-row + .blue-arrow-body-row {
+  margin-top: 20px;
+}
+
+.blue-arrow-row-header {
+  font-family: "Campton";
+  font-size: 29px
+}
+
+.blue-arrow-grid-box-container {
+  width: 100%;
+  height: 350px;
+}
+
+.blue-arrow-grid-box-row {
+  display: inline-block;
+}
+
+.blue-arrow-grid-box {
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  font-size: 20px;
+  border: 4px solid;
+  border-color: $primary-color;
 }
 
 a, a:hover, a:visited, a:focus {

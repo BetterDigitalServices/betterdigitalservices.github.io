@@ -5,9 +5,23 @@
   src: url('../fonts/Rene_Bieder-Campton_Medium.otf?') format('opentype');
 }
 
+@font-face {
+  font-family: "John Baskerville Bold";
+  src: url("../fonts/272507-baskerville-10-pro-bold/Baskerville10Pro-Bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "John Baskerville Medium";
+  src: url("../fonts/272511-baskerville-10-pro-medium") format('opentype');
+}
+
+@font-face {
+  font-family: "John Baskerville Regular";
+  src: url("../fonts/272514-baskerville-120-pro-regular") format('opentype');
+}
+
 h1 {
   text-transform: uppercase;
-  font-family : Campton;
   font-weight : bold;
   font-size : 84px;
   line-height : 92.6px;
