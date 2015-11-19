@@ -8,11 +8,11 @@
 
 @font-face {
   font-family: "John Baskerville Medium";
-  src: url("../fonts/272511-baskerville-10-pro-medium") format("opentype"); }
+  src: url("../fonts/272511-baskerville-10-pro-medium/Baskerville10Pro-Medium.otf") format("opentype"); }
 
 @font-face {
   font-family: "John Baskerville Regular";
-  src: url("../fonts/272514-baskerville-120-pro-regular") format("opentype"); }
+  src: url("../fonts/272514-baskerville-120-pro-regular/Baskerville120Pro.otf") format("opentype"); }
 
 h1 {
   text-transform: uppercase;
@@ -71,7 +71,7 @@ header {
 .blue-arrow-footer-container {
   width: 100%;
   background-color: #fff;
-  height: 100px; }
+  height: 70px; }
 
 .info {
   font-size: 28px;
@@ -146,16 +146,19 @@ a, a:hover, a:visited, a:focus {
   font-size: 29px; }
 
 .blue-arrow-grid-box-container {
-  width: 100%;
-  height: 350px; }
+  width: 500px;
+  height: 270px; }
 
 .blue-arrow-grid-box-row {
-  display: inline-block; }
+  display: inline-flex; }
 
 .blue-arrow-grid-box {
   display: inline-block;
   height: 110px;
   width: 110px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
   font-size: 20px;
   border: 4px solid;
   border-color: #203B6A; }
