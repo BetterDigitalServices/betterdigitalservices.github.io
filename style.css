@@ -2,25 +2,71 @@
     font-family: Baskerville;
     src: url(/fonts/Baskerville120Pro.otf);
 }
-    
+
+@font-face {
+    font-family: "Rene Bieder";
+    src: url(/fonts/Rene Bieder - Campton Book.otf);
+}
+
 body {
   background: #d4ecdf;
   font-family: Baskerville, serif;
   letter-spacing: 0.07em;
   color: #1f3b6a;
 }
+
+h1, h2, h3 {
+  font-family: "Rene Bieder", sans-serif;
+}
+
 h1 {
-  text-transform: uppercase;
-  font-size: 3em;
   text-align: center;
+}
+h1 img {
+  width: 9em;
 }
 
 h2 {
-
+  font-weight: normal;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
 }
 
 p {
   padding: 1.5 em;
+}
+
+section {
+  margin-top: 4em;
+}
+
+section div {
+  float: left;
+}
+
+section:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+.col-text {
+  max-width: 85%;
+}
+
+.col-icon {
+  width: 15%;
+  min-width: 4em;
+  padding-bottom: 1em;
+}
+
+.col-icon img {
+  width: 3.5em;
+  height: 3.5em;
 }
 
 @media (min-width: 600px) {
