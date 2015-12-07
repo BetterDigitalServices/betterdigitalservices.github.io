@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Baskerville;
+    src: url(/fonts/Baskerville120Pro.otf);
+}
+    
+body {
+  background: #d4ecdf;
+  font-family: Baskerville, serif;
+  letter-spacing: 0.07em;
+  color: #1f3b6a;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+
+}
+
+p {
+  padding: 1.5 em;
+}
+
+@media (min-width: 600px) {
+  section {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
