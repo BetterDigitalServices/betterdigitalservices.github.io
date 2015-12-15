@@ -1,11 +1,17 @@
 @font-face {
     font-family: Baskerville;
-    src: url(/fonts/Baskerville120Pro.otf);
+    src: url(fonts/Baskerville120Pro.otf);
 }
 
 @font-face {
-    font-family: "Rene Bieder";
-    src: url(/fonts/Rene Bieder - Campton Book.otf);
+    font-family: ReneBieder;
+    src: url(fonts/Rene_Bieder-Campton_Medium.otf);
+}
+
+@font-face {
+    font-family: ReneBieder;
+    src: url(fonts/Rene_Bieder-Campton_Bold.otf);
+    font-weight: bold;
 }
 
 body {
@@ -16,7 +22,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "Rene Bieder", sans-serif;
+  font-family: ReneBieder, sans-serif;
 }
 
 h1 {
